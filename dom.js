@@ -1,5 +1,5 @@
 //GETELEMENTBYID
-document.getElementById("exemplo-um").innerHTML= "Inserir texto no exemplo ";
+document.getElementById("exemplo-um").innerHTML = "Inserir texto no exemplo um ";
 
 
 //GETELEMENTBYNAME
@@ -23,6 +23,8 @@ function exemploQuatro(){
    console.log(nomeTagLista);
 }
 
+
+//GETELEMENTBTCLASSNAME
 function exemploCinco(){
     var nomeClasse = document.getElementsByClassName("produto");
     console.log(nomeClasse);
